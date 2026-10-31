@@ -1,0 +1,198 @@
+body {
+    background-color: #000e30;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+
+.cabecalho {
+    background-color: rgb(0, 20, 92);
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    height: 75px;
+    padding-left: 20px;
+}
+
+img.tech {
+    height: 75px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding-left: 200px;
+    gap: 300px;
+    font-size: 25px;
+}
+
+ul a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Título */
+
+div.titulo {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 0;
+    padding-top: 20px;
+}
+
+h2 {
+    font-size: 40px;
+    max-width: 49%;
+    margin: 0;
+    padding-top: 20px;
+}
+
+div.titulo p {
+    font-size: 15px;
+    max-width: 17%;
+    padding-top: 10px;
+}
+
+div.titulo button {
+    background-color: rgb(0, 119, 255);
+    width: 200px;
+    height: 40px;
+    border: 10px;
+    border-radius: 12px;
+    
+}
+
+div.titulo button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+img.mapa {
+    width: 700px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    right: 0;
+}
+
+/* Corpo */
+
+div.corpo {
+    background-color: #fff;
+    color: black;
+    padding-left: 20px;
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+div#protagonistas {
+    display: flex;
+    flex-direction: row;
+}
+
+div.corpo h3 {
+    font-size: 35px;
+    padding-top: 20px;
+    margin: 20px;
+}
+
+div.linus {
+    display: flex;
+    margin-top: 20px;
+    max-width: 50%;
+    border: 1px solid aqua;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+div.linus div {
+    padding: 10px;
+}
+
+div.linus div h2 {
+    max-width: 100%;
+}
+
+div.berners {
+    display: flex;
+    margin-top: 20px;
+    max-width: 50%;
+    border: 1px solid aqua;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+div.berners div {
+    padding: 10px;
+}
+
+div.berners div h2 {
+    max-width: 100%;
+}
+
+div.corpo img {
+    width: 30%;
+    height: 100%;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+/* Acesse os conteúdos */
+
+div.conteudos {
+    padding: 20px;
+    padding-right: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.conteudos button {
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(213, 255, 255);
+    width: 170px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+div.conteudos button a {
+    text-decoration: none;
+    color: black;
+}
+
+div.conteudos img {
+    height: 30px;
+    width: 30px;
+}
+
+/* Rodapé */
+
+footer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+img.footer {
+    height: 30px;
+}
+
+footer span {
+    padding-top: 7px;
+}

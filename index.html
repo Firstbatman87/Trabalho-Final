@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="cabecalho">
-            <h2><a href="index.html"><img src="imagens/TechPédia.png" alt="Imagem TechPédia"></a></h2>
+            <a href="index.html"><img src="imagens/TechPédia.png" alt="Imagem TechPédia" class="tech"></a>
             <ul>
                 <li><span><a href="index.html">Início</a></span></li>
                 <li><span><a href="linus.html">Linus</a></span></li>
@@ -19,31 +19,50 @@
     </header>
     <main>
         <div class="titulo">
-            <img src="imagens/Mapa.png" alt="Fundo">
             <h1>TechPédia</h1>
             <h2>A enciclopédia de Linus Torvalds e Tim Berners-Lee</h2>
             <p>Duas ideias. Um mesmo impacto: o código que move o mundo.</p>
             <button><a href="index.html#protagonistas">Conheça os personagens</a></button>
+            <img src="imagens/Mapa.png" alt="Fundo" class="mapa">
         </div>
-        <div id="protagonistas">
-            <h2>Os protagonistas</h2>
-            <div class="linus">
-                <img src="imagens/Linus.jpg" alt="Linus Torvalds">
-                <h2>Linus Torvalds</h2>
-                <p>Linus Torvalds é um programador conhecido por iniciar o desenvolvimento do kernel Linux em 1991, 
-                    uma tecnologia que se tornou importante para sistemas operacionais e servidores. Em 2005, também 
-                    criou o Git, ferramenta utilizada para controlar versões de projetos de software.</p>
-                <p>“O programador que ajudou a transformar o desenvolvimento de sistemas em um esforço colaborativo mundial.”</p>
+        <div class="corpo">
+            <h3>Os protagonistas</h3>
+            <div id="protagonistas">
+                <div class="linus">
+                    <img src="imagens/Linus.jpg" alt="Linus Torvalds">
+                    <div>
+                        <h2>Linus Torvalds</h2>
+                        <p>Criador do Linux e Git.</p>
+                        <span>“O software livre fortalece a todos."</span>
+                    </div>
+                </div>
+                <div class="berners">
+                    <img src="imagens/Berners.jpg" alt="Tim Berners-Lee">
+                    <div>
+                        <h2>Tim Berners-Lee</h2>
+                        <p>Criador da World Wide Web.</p>
+                        <span>“A Web conecta pessoas, ideias e conhecimentos.”</span>
+                    </div>
+                </div>
             </div>
-            <div class="berners">
-                <img src="imagens/Berners.jpg" alt="Tim Berners-Lee">
-                <h2>Tim Berners-Lee</h2>
-                <p>Tim Berners-Lee é o cientista da computação que inventou a World Wide Web em 1989, enquanto trabalhava no CERN. 
-                    Sua criação possibilitou conectar documentos por meio de links e facilitou o compartilhamento de informações pela Internet.</p>
-                <p>“O cientista que transformou a maneira como as pessoas acessam e compartilham informações no mundo.”</p>
+            <h3>Acesse os conteúdos</h3>
+            <div class="conteudos">
+                <button><img src="imagens/contexto.png" alt="contexto"><a href="linus.html#contexto">Contexto histórico - Linus</a></button>
+                <button><img src="imagens/tempo.png" alt="tempo"><a href="linus.html#linha-tempo">Linha do tempo - Linus</a></button>
+                <button><img src="imagens/contribuicoes.png" alt="contribuicoes"><a href="linus.html#contribuicoes">Contribuições - Linus</a></button>
+                <button><img src="imagens/desafios.png" alt="desafios"><a href="linus.html#desafios">Desafios - Linus</a></button>
+                <button><img src="imagens/legado.png" alt="legado"><a href="linus.html#legadoatual">Legado atual - Linus</a></button>
+                <button><img src="imagens/curiosidades.png" alt="curiosidades"><a href="linus.html#curiosidades">Curiosidades - Linus</a></button>
+                <button><img src="imagens/contexto.png" alt="contexto"><a href="berners.html#contexto">Contexto histórico - Berners-Lee</a></button>
+                <button><img src="imagens/tempo.png" alt="tempo"><a href="berners.html#linha-tempo">Linha do tempo - Berners-Lee</a></button>
+                <button><img src="imagens/contribuicoes.png" alt="contribuicoes"><a href="berners.html#contribuicoes">Contribuições - Berners-Lee</a></button>
+                <button><img src="imagens/desafios.png" alt="desafios"><a href="berners.html#desafios">Desafios - Berners-Lee</a></button>
+                <button><img src="imagens/legado.png" alt="legado"><a href="berners.html#legadoatual">Legado atual - Berners-Lee</a></button>
+                <button><img src="imagens/curiosidades.png" alt="curiosidades"><a href="berners.html#curiosidades">Curiosidades - Berners-Lee</a></button>
             </div>
-            
         </div>
     </main>
-</body>
+    <footer>
+        <img src="imagens/TechPédia.png" alt="Imagem TechPédia" class="footer"><span> | SENAI | Curso de Programação de Sistemas</span></footer>
+</body> 
 </html>

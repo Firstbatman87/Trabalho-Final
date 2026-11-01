@@ -43,9 +43,9 @@
     height: auto;
 }
 
-.cabecalho.imagem img {
+.cabecalho .imagem img {
     height: 60px !important;
     width: auto !important;
-    display: block 
+    display: block;
     
 }

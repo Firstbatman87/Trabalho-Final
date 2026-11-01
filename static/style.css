@@ -11,7 +11,7 @@
     box-sizing: border-box;
 }
 
-.cabecalho{
+.cabecalho li{
     display: flex;
     flex-direction: row;
     gap: 20px;

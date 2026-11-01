@@ -16,6 +16,7 @@ abecalho {
     justify-content: space-between; 
     align-items: center; 
     padding: 20px;
+    background-color: var(--cor);
 }
 
 .cabecalho ul {
@@ -27,7 +28,6 @@ abecalho {
 
 .cabecalho ul li a {
     display: block;                
-    background-color: var(--cor);
     color: var(--cor-letra);
     padding: 12px 25px;            
     text-decoration: none;

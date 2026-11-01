@@ -11,14 +11,26 @@
     box-sizing: border-box;
 }
 
-.cabecalho li{
+abecalho {
     display: flex;
-    flex-direction: row;
-    gap: 20px;
-    list-style: none;
-    text-align: center;
-     font-size: 30px;
-    background-color: var(--cor);
-    color: var(--cor-letra);
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px;
 }
 
+.cabecalho ul {
+    display: flex;
+    flex-direction: row; 
+    gap: 20px;           
+    list-style: none;
+}
+
+.cabecalho ul li a {
+    display: block;                
+    background-color: var(--cor);
+    color: var(--cor-letra);
+    padding: 12px 25px;            
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}

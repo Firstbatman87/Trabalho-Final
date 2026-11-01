@@ -14,7 +14,7 @@
 
 .cabecalho {
     display: flex;
-    gap: 40px;
+    gap: 60px;
     align-items: center; 
     padding: 10px 40px;
     background-color: var(--cor-fundo);

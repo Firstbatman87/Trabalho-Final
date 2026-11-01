@@ -11,12 +11,15 @@
     box-sizing: border-box;
 }
 
+header {
+    background-color: var(--cor);
+}
+
 abecalho {
     display: flex;
     justify-content: space-between; 
     align-items: center; 
     padding: 20px;
-    background-color: var(--cor);
 }
 
 .cabecalho ul {

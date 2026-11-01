@@ -14,7 +14,7 @@
 
 .cabecalho {
     display: flex;
-    justify-content: space-between; 
+    gap: 40px;
     align-items: center; 
     padding: 10px 40px;
     background-color: var(--cor-fundo);
@@ -36,7 +36,13 @@
     font-weight: bold;
 }
 
-.cabecalho img {
+.imagem {
+    max-width: 100%;
+    height: auto;
+}
+
+.cabecalho.imagem img {
     height: 60px;
     width: auto;
+    display: block;
 }

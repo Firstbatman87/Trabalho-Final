@@ -16,7 +16,7 @@
     display: flex;
     gap: 60px;
     align-items: center; 
-    padding: 10px 40px;
+    padding: 15px 100px;
     background-color: var(--cor-fundo);
 }
 
@@ -30,15 +30,13 @@
 .cabecalho ul li a {
     display: block;                
     color: var(--cor-letra);
-    padding: 12px;            
+    font-size: 20px;
+    padding: 15px 30px;            
     text-decoration: none;
     border-radius: 8px;
     font-weight: bold;
 }
 
-.cabecalho ul {
-    font-size: 40px;
-}
 
 .imagem {
     max-width: 100%;

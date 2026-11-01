@@ -13,10 +13,15 @@
 
 .cabecalho{
     display: flex;
-    gap: 10px;
-    text-align: center;
+    flex-direction: row;
+    gap: 20px;
+    
     list-style: none;
-    font-size: 10px;
+}
+
+.cabecalho li{
+    text-align: center;
+     font-size: 30px;
     background-color: var(--cor);
     color: var(--cor-letra);
 }

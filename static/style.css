@@ -1,7 +1,7 @@
 
 :root{
     /* cor do cabecario */
-    --cor: #35359c;
+    --cor-fundo: #35359c;
     --cor-letra: #fff;
 
 }
@@ -16,8 +16,8 @@ abecalho {
     display: flex;
     justify-content: space-between; 
     align-items: center; 
-    padding: 20px;
-    background-color: var(--cor);
+    padding: 20px 40px;
+    background-color: var(--cor-fundo);
 }
 
 .cabecalho ul {

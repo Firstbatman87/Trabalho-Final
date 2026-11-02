@@ -31,8 +31,8 @@
 .cabecalho ul li a {
     display: block;                
     color: var(--cor-letra);
-    font-size: 30px;
-    padding: 25px 40px;            
+    font-size: 35px;
+    padding: 25px 35px;            
     text-decoration: none;
     border-radius: 8px;
     font-weight: bold;

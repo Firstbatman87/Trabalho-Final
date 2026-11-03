@@ -52,6 +52,11 @@
 
 /* parte de apresentacao  */
 
+.titulo {
+    background-color: #0a5cd8;
+    
+}
+
 .titulo h1 {
     font-size: 80px;
     padding: 20px 10px;

@@ -19,6 +19,10 @@
     align-items: center; 
     padding: 15px 40px;
     background-color: var(--cor-fundo);
+    /* parte para manter o cabecario fixo na tela */
+    position: sticky;
+    top: 0;
+    z-index: 1000
 }
 
 .cabecalho ul {

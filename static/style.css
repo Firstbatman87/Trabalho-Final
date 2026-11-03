@@ -52,7 +52,8 @@
 
 /* parte de apresentacao  */
 
-h1 {
-    font-size: 30px;
-    color: var(--cor-letra);
+.titulo h1 {
+    font-size: 50px;
+    padding: 20px 10px;
+    color: var(--cor-fundo);
 }

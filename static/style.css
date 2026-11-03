@@ -15,9 +15,9 @@
 
 .cabecalho {
     display: flex;
-    gap: 60px;
+    justify-content: space-between;
     align-items: center; 
-    padding: 15px 80px;
+    padding: 15px 40px;
     background-color: var(--cor-fundo);
 }
 
@@ -31,22 +31,16 @@
 .cabecalho ul li a {
     display: block;                
     color: var(--cor-letra);
-    font-size: 35px;
-    padding: 25px 35px;            
+    font-size: 20px;
+    padding: 10px 20px;            
     text-decoration: none;
     border-radius: 8px;
     font-weight: bold;
     
 }
 
-
-.imagem {
-    max-width: 100%;
-    height: auto;
-}
-
 .cabecalho .imagem img {
-    height: 70px !important;
+    height: 50px !important;
     width: auto !important;
     display: block;
     

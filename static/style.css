@@ -49,3 +49,10 @@
     display: block;
     
 }
+
+/* parte de apresentacao  */
+
+h1 {
+    font-size: 30px;
+    color: var(--cor-letra);
+}

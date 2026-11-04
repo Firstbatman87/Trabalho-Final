@@ -55,6 +55,7 @@
 .titulo {
     background-color: #0a5cd8;
     display: flex; 
+    color: var(--cor-letra);
 
 }
 
@@ -67,6 +68,7 @@
 }
 
 .titulo img {
-
     height: 500px;
+    align-items: left;
 }
+

@@ -54,6 +54,7 @@
 
 .titulo {
     background-color: #0a5cd8;
+    display: flex;
 
 }
 

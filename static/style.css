@@ -278,3 +278,80 @@ body {
     width: 42px;
     height: auto;
 }
+
+/* --- NOVO ESTILO: DESAFIOS (BASEADO NA IMAGEM) --- */
+.secao-desafios-novo {
+    background-color: #f8fafc; /* Fundo bem claro, quase branco */
+    padding: 40px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+
+.secao-desafios-novo h2 {
+    color: #0f172a; /* Azul muito escuro para o título principal */
+    font-size: 28px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.secao-desafios-novo .subtitulo {
+    color: #475569; /* Cinza escuro */
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+/* Cápsula com o nome do personagem */
+.titulo-pill {
+    background-color: #eff6ff; /* Azul super claro */
+    color: #1e40af; /* Azul escuro */
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px; /* Cantos arredondados como na imagem */
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+
+/* Lista de desafios */
+.lista-desafios-img {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 25px; /* Espaço entre cada item da lista */
+}
+
+.item-desafio-img {
+    display: flex;
+    align-items: center; /* Centraliza o ícone com o texto */
+    gap: 20px; 
+}
+
+/* Círculo escuro para o ícone */
+.icone-desafio-img {
+    background-color: #1e40af; /* Azul escuro */
+    color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%; /* Transforma num círculo perfeito */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0; 
+    font-size: 22px;
+}
+
+.item-desafio-img p {
+    margin: 0;
+    color: #334155;
+    font-size: 15px;
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+.item-desafio-img img{
+    width: 45px;
+    height: auto;
+}

@@ -1,13 +1,11 @@
-
-
-:root{
+:root {
 
     /* cor do cabecario */
     --cor-fundo: #35359c;
     --cor-letra: #fff;
 
     /* Fundo da secção de apresentação (azul muito escuro) */
-    --cor-hero: #03122e ;
+    --cor-hero: #03122e;
 
     /* Fundo geral da página, onde ficam os cartões (um azul/cinza bem clarinho) */
     --cor-fundo-site: #f4f7fc;
@@ -19,7 +17,7 @@
     --cor-letra-cinza: #94a3b8;
 }
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -47,15 +45,15 @@ body {
 .cabecalho ul {
     display: flex;
     flex-direction: row;
-    gap: 10px 50px;          
+    gap: 10px 50px;
     list-style: none;
 }
 
 .cabecalho ul li a {
-    display: block;                
+    display: block;
     color: var(--cor-letra);
     font-size: 20px;
-    padding: 10px 20px;            
+    padding: 10px 20px;
     text-decoration: none;
     border-radius: 8px;
     font-weight: bold;
@@ -67,7 +65,7 @@ body {
     display: block;
 }
 
-.hero-section{
+.hero-section {
     background-color: var(--cor-hero);
     color: var(--cor-letra);
     padding: 60px 60px;
@@ -76,7 +74,7 @@ body {
     align-items: center;
 }
 
-.hero-texto{
+.hero-texto {
     max-width: 550px;
 }
 
@@ -92,7 +90,7 @@ body {
     margin-bottom: 30px;
 }
 
-.botoes-container{
+.botoes-container {
     display: flex;
     gap: 15px;
 }
@@ -105,12 +103,12 @@ body {
     font-size: 14px;
 }
 
-.btn-primario{
+.btn-primario {
     background-color: var(--cor-azul-claro);
     color: var(--cor-letra);
 }
 
-.btn-secundario{
+.btn-secundario {
     background-color: transparent;
     color: var(--cor-letra);
     border: 1px solid var(--cor-letra-cinza);
@@ -121,20 +119,20 @@ body {
     width: 100%;
 }
 
-.conteudo-principal{
+.conteudo-principal {
     max-width: 1100px;
     margin: -30px auto 50px auto;
     padding: 0px 20px;
 }
 
-.grid-protagonistas{
-    display: grid  ;
+.grid-protagonistas {
+    display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     margin-top: 40px;
 }
 
-.card-perfil{
+.card-perfil {
     background-color: #ffffff;
     padding: 20px;
     border-radius: 12px;
@@ -255,11 +253,29 @@ body {
 }
 
 /* Ícones customizados */
-.icone-linux { color: #000000; }
-.icone-git { color: #f05032; }
-.icone-web { color: #0284c7; }
-.icone-code { color: #0284c7; font-weight: bold; font-size: 14px; }
-.icone-w3c { color: #005a9c; font-weight: bold; font-size: 12px; }
+.icone-linux {
+    color: #000000;
+}
+
+.icone-git {
+    color: #f05032;
+}
+
+.icone-web {
+    color: #0284c7;
+}
+
+.icone-code {
+    color: #0284c7;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.icone-w3c {
+    color: #005a9c;
+    font-weight: bold;
+    font-size: 12px;
+}
 
 .detalhes-projeto h4 {
     font-size: 16px;
@@ -274,39 +290,45 @@ body {
     line-height: 1.5;
 }
 
-.item-cartao-projeto img{
+.item-cartao-projeto img {
     width: 42px;
     height: auto;
 }
 
 /* --- NOVO ESTILO: DESAFIOS (BASEADO NA IMAGEM) --- */
 .secao-desafios-novo {
-    background-color: #f8fafc; /* Fundo bem claro, quase branco */
+    background-color: #f8fafc;
+    /* Fundo bem claro, quase branco */
     padding: 40px;
     border-radius: 12px;
     margin-bottom: 40px;
 }
 
 .secao-desafios-novo h2 {
-    color: #0f172a; /* Azul muito escuro para o título principal */
+    color: #0f172a;
+    /* Azul muito escuro para o título principal */
     font-size: 28px;
     margin-bottom: 5px;
     margin-top: 0;
 }
 
 .secao-desafios-novo .subtitulo {
-    color: #475569; /* Cinza escuro */
+    color: #475569;
+    /* Cinza escuro */
     font-size: 16px;
     margin-bottom: 30px;
 }
 
 /* Cápsula com o nome do personagem */
 .titulo-pill {
-    background-color: #eff6ff; /* Azul super claro */
-    color: #1e40af; /* Azul escuro */
+    background-color: #eff6ff;
+    /* Azul super claro */
+    color: #1e40af;
+    /* Azul escuro */
     display: inline-block;
     padding: 10px 20px;
-    border-radius: 8px; /* Cantos arredondados como na imagem */
+    border-radius: 8px;
+    /* Cantos arredondados como na imagem */
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 25px;
@@ -320,26 +342,30 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    gap: 25px; /* Espaço entre cada item da lista */
+    gap: 25px;
+    /* Espaço entre cada item da lista */
 }
 
 .item-desafio-img {
     display: flex;
-    align-items: center; /* Centraliza o ícone com o texto */
-    gap: 20px; 
+    align-items: center;
+    /* Centraliza o ícone com o texto */
+    gap: 20px;
 }
 
 /* Círculo escuro para o ícone */
 .icone-desafio-img {
-    background-color: #1e40af; /* Azul escuro */
+    background-color: #1e40af;
+    /* Azul escuro */
     color: white;
     width: 45px;
     height: 45px;
-    border-radius: 50%; /* Transforma num círculo perfeito */
+    border-radius: 50%;
+    /* Transforma num círculo perfeito */
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-shrink: 0; 
+    flex-shrink: 0;
     font-size: 22px;
 }
 
@@ -351,7 +377,468 @@ body {
     font-weight: 500;
 }
 
-.item-desafio-img img{
+.item-desafio-img img {
     width: 45px;
     height: auto;
+}
+
+
+/* ==============================
+   CONFIGURAÇÕES GERAIS
+============================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #080f20;
+    color: #dbe5f5;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+    padding: 40px 20px;
+}
+
+/* ==============================
+   CARD DE PERFIL
+============================== */
+
+.card-perfil {
+    max-width: 1100px;
+    margin: 0 auto 50px;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+
+    background: linear-gradient(
+        135deg,
+        #111e38,
+        #14294b
+    );
+
+    border: 1px solid #243d64;
+    border-radius: 18px;
+
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.card-perfil:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
+}
+
+/* IMAGEM */
+
+.card-perfil img {
+    width: 240px;
+    height: 280px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 14px;
+
+    border: 3px solid #2585d8;
+
+    box-shadow: 0 0 25px rgba(37, 133, 216, 0.2);
+}
+
+/* INFORMAÇÕES DO PERFIL */
+
+.card-perfil h1 {
+    color: #ffffff;
+    font-size: 34px;
+    margin-bottom: 5px;
+    line-height: 1.3;
+}
+
+.card-perfil h3 {
+    color: #55b8ff;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.card-perfil p {
+    color: #c0cee2;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.card-perfil strong {
+    color: #55b8ff;
+    font-size: 13px;
+}
+
+.card-perfil em {
+    color: #ffffff;
+}
+
+/* ==============================
+   CONTEXTO HISTÓRICO
+============================== */
+
+#contexto {
+    max-width: 1100px;
+    margin: auto;
+    padding: 35px;
+
+    background: #101b30;
+    border: 1px solid #223653;
+    border-radius: 18px;
+
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* TÍTULO PRINCIPAL */
+
+#contexto h2 {
+    color: #ffffff;
+    font-size: 27px;
+    line-height: 1.4;
+
+    margin-bottom: 30px;
+    padding-bottom: 18px;
+
+    border-bottom: 2px solid #2585d8;
+}
+
+/* SUBTÍTULOS */
+
+#contexto h3 {
+    color: #55b8ff;
+    font-size: 19px;
+    margin-top: 30px;
+    margin-bottom: 12px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#contexto h3::before {
+    content: "";
+    width: 4px;
+    height: 22px;
+    background: #2585d8;
+    border-radius: 5px;
+}
+
+/* PARÁGRAFOS */
+
+#contexto p {
+    color: #b8c7dc;
+    font-size: 15px;
+    line-height: 1.9;
+
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+/* ==============================
+   RESPONSIVIDADE
+============================== */
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 20px 12px;
+    }
+
+    .card-perfil {
+        flex-direction: column;
+        text-align: center;
+        padding: 25px 20px;
+        gap: 20px;
+    }
+
+    .card-perfil img {
+        width: 200px;
+        height: 220px;
+    }
+
+    .card-perfil h1 {
+        font-size: 27px;
+    }
+
+    .card-perfil h3 {
+        font-size: 13px;
+    }
+
+    .card-perfil p {
+        text-align: left;
+    }
+
+    #contexto {
+        padding: 25px 20px;
+    }
+
+    #contexto h2 {
+        font-size: 22px;
+    }
+
+    #contexto h3 {
+        font-size: 17px;
+    }
+
+    #contexto p {
+        font-size: 14px;
+        text-align: left;
+    }
+}
+
+/* TELAS MUITO PEQUENAS */
+
+@media (max-width: 400px) {
+
+    .card-perfil img {
+        width: 170px;
+        height: 190px;
+    }
+
+    .card-perfil h1 {
+        font-size: 24px;
+    }
+
+    #contexto h2 {
+        font-size: 20px;
+    }
+}
+
+
+/* ==============================
+   CONFIGURAÇÕES GERAIS
+============================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #080f20;
+    color: #dbe5f5;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+    padding: 40px 20px;
+}
+
+/* ==============================
+   CARD DE PERFIL
+============================== */
+
+.card-perfil {
+    max-width: 1100px;
+    margin: 0 auto 50px;
+    padding: 35px;
+
+    display: flex;
+    align-items: center;
+    gap: 35px;
+
+    background: linear-gradient(
+        135deg,
+        #111e38,
+        #14294b
+    );
+
+    border: 1px solid #243d64;
+    border-radius: 18px;
+
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.card-perfil:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
+}
+
+/* IMAGEM */
+
+.card-perfil img {
+    width: 240px;
+    height: 280px;
+
+    object-fit: cover;
+    object-position: center;
+
+    border-radius: 14px;
+    border: 3px solid #2585d8;
+
+    box-shadow: 0 0 25px rgba(37, 133, 216, 0.2);
+}
+
+/* INFORMAÇÕES DO PERFIL */
+
+.card-perfil h1 {
+    color: #ffffff;
+    font-size: 34px;
+    margin-bottom: 5px;
+    line-height: 1.3;
+}
+
+.card-perfil h3 {
+    color: #55b8ff;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.card-perfil p {
+    color: #c0cee2;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.card-perfil strong {
+    color: #55b8ff;
+    font-size: 13px;
+}
+
+.card-perfil em {
+    color: #ffffff;
+}
+
+/* ==============================
+   CONTEXTO HISTÓRICO
+============================== */
+
+#biografia {
+    max-width: 1100px;
+    margin: auto;
+    padding: 35px;
+
+    background: #101b30;
+    border: 1px solid #223653;
+    border-radius: 18px;
+
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* TÍTULO PRINCIPAL */
+
+#biografia h2 {
+    color: #ffffff;
+    font-size: 27px;
+    line-height: 1.4;
+
+    margin-bottom: 30px;
+    padding-bottom: 18px;
+
+    border-bottom: 2px solid #2585d8;
+}
+
+/* SUBTÍTULOS */
+
+#biografia h3 {
+    color: #55b8ff;
+    font-size: 19px;
+
+    margin-top: 30px;
+    margin-bottom: 12px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#biografia h3::before {
+    content: "";
+
+    width: 4px;
+    height: 22px;
+
+    background: #2585d8;
+    border-radius: 5px;
+}
+
+/* PARÁGRAFOS */
+
+#biografia p {
+    color: #b8c7dc;
+    font-size: 15px;
+    line-height: 1.9;
+
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+/* ==============================
+   RESPONSIVIDADE
+============================== */
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 20px 12px;
+    }
+
+    .card-perfil {
+        flex-direction: column;
+        text-align: center;
+        padding: 25px 20px;
+        gap: 20px;
+    }
+
+    .card-perfil img {
+        width: 200px;
+        height: 220px;
+    }
+
+    .card-perfil h1 {
+        font-size: 27px;
+    }
+
+    .card-perfil h3 {
+        font-size: 13px;
+    }
+
+    .card-perfil p {
+        text-align: left;
+    }
+
+    #biografia {
+        padding: 25px 20px;
+    }
+
+    #biografia h2 {
+        font-size: 22px;
+    }
+
+    #biografia h3 {
+        font-size: 17px;
+    }
+
+    #biografia p {
+        font-size: 14px;
+        text-align: left;
+    }
+}
+
+/* TELAS MUITO PEQUENAS */
+
+@media (max-width: 400px) {
+
+    .card-perfil img {
+        width: 170px;
+        height: 190px;
+    }
+
+    .card-perfil h1 {
+        font-size: 24px;
+    }
+
+    #biografia h2 {
+        font-size: 20px;
+    }
 }

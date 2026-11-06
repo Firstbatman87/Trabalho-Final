@@ -20,8 +20,8 @@
     </header>
 
     <main class="conteudo-principal">
-        <!-- SEÇÃO HERO DO TIM BERNERS-LEE -->
-        <div class="card-perfil" style="margin-top: 40px;">
+        <!-- APRESENTAÇÃO -->
+        <div class="card-perfil">
             <img src="imagens/Berners.jpg" alt="Tim Berners-Lee">
             <div>
                 <h1>Tim Berners-Lee</h1>
@@ -30,151 +30,76 @@
             </div>
         </div>
 
-        <!-- BIOGRAFIA E CONTEXTO -->
-        <section id="biografia" style="margin-top: 30px;">
+        <!-- BIOGRAFIA -->
+        <section id="biografia">
             <h2>Biografia</h2>
-            <p>Tim Berners-Lee é o cientista da computação que inventou a World Wide Web em 1989, enquanto trabalhava no CERN. Sua criação possibilitou conectar documentos por meio de links e facilitou o compartilhamento de informações pela Internet.</p>
-            
-            <blockquote style="margin: 15px 0; padding-left: 15px; border-left: 4px solid var(--cor-azul-claro);">
-                <p><strong>Frase que o define:</strong> “O cientista que transformou a maneira como as pessoas acessam e compartilham informações no mundo.”</p>
-            </blockquote>
+            <p>Timothy John Berners-Lee é um físico e cientista da computação britânico, responsável por inventar a World Wide Web em 1989 enquanto trabalhava no CERN. Ele criou as tecnologias fundamentais que permitem navegar na internet até hoje.</p>
+            <p><strong>Frase que o define:</strong> “O homem que decidiu dar a Web de presente ao mundo de forma gratuita e descentralizada.”</p>
         </section>
 
-        <section id="contexto" style="margin-top: 30px;">
-            <h2>O mundo da tecnologia antes de suas contribuições</h2>
-            <p>Entre as décadas de 1970 e 1990, a computação passou por grandes transformações. Os computadores começaram a chegar também às residências e a pequenos negócios. Apesar desses avanços, a tecnologia ainda apresentava limitações importantes.</p>
-            <p>A Internet já existia antes, mas a existência de uma rede mundial não significava facilidade para navegar entre páginas. Foi nesse cenário que Tim criou a World Wide Web, um sistema para conectar e acessar informações facilmente.</p>
-
-            <h3 style="margin-top: 20px;">Como era a comunicação entre computadores?</h3>
-            <p>Antes da Web, a troca de informações dependia de ferramentas distintas (como e-mail e FTP). Não existia um sistema de uso geral com documentos interligados por links.</p>
-
-            <h3 style="margin-top: 20px;">O nascimento da World Wide Web</h3>
-            <p>Em março de 1989, Tim apresentou a proposta no CERN. Em 1990, ele implementou três tecnologias fundamentais:</p>
-            <ul>
-                <li><strong>HTML:</strong> linguagem utilizada para estruturar documentos da Web.</li>
-                <li><strong>HTTP:</strong> protocolo de comunicação entre clientes e servidores web.</li>
-                <li><strong>URL:</strong> sistema de endereçamento para identificar recursos.</li>
-            </ul>
-        </section>
-
-        <!-- COMPARAÇÃO DE CONTEXTO -->
-        <section style="margin-top: 30px;">
-            <h2>O que mudou entre essas duas épocas?</h2>
-            <table style="width: 100%; margin-top: 15px; border-collapse: collapse;">
-                <thead>
-                    <tr style="background-color: var(--cor-hero); color: #fff;">
-                        <th style="padding: 10px;">Aspecto</th>
-                        <th style="padding: 10px;">Linus Torvalds</th>
-                        <th style="padding: 10px;">Tim Berners-Lee</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td style="padding: 10px; border-bottom: 1px solid #ccc;"><strong>Principal problema</strong></td>
-                        <td style="padding: 10px; border-bottom: 1px solid #ccc;">Kernel de sistema operacional.</td>
-                        <td style="padding: 10px; border-bottom: 1px solid #ccc;">Organização e compartilhamento de informações.</td>
-                    </tr>
-                    <tr>
-                        <td style="padding: 10px; border-bottom: 1px solid #ccc;"><strong>Local de trabalho</strong></td>
-                        <td style="padding: 10px; border-bottom: 1px solid #ccc;">Universidade de Helsinque (Finlândia).</td>
-                        <td style="padding: 10px; border-bottom: 1px solid #ccc;">CERN (Suíça).</td>
-                    </tr>
-                    <tr>
-                        <td style="padding: 10px; border-bottom: 1px solid #ccc;"><strong>Marco inicial</strong></td>
-                        <td style="padding: 10px; border-bottom: 1px solid #ccc;">Linux em 1991.</td>
-                        <td style="padding: 10px; border-bottom: 1px solid #ccc;">Proposta da Web em 1989.</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
-        <!-- LINHA DO TEMPO ESTILIZADA -->
-        <section style="margin-top: 40px;">
-            <h2>Linha do Tempo de Tim Berners-Lee</h2>
+        <!-- LINHA DO TEMPO (AZUL) -->
+        <section class="secao-linha-tempo">
+            <h2>Linha do Tempo</h2>
             <div class="linha-tempo">
                 <div class="item-timeline">
                     <span class="ano">1955</span>
-                    <p><strong>Nascimento em Londres:</strong> Timothy John Berners-Lee nasceu em 8 de junho de 1955. Estudou física na Universidade de Oxford.</p>
+                    <p><strong>Nascimento em Londres:</strong> Timothy John Berners-Lee nasceu em 8 de junho de 1955.</p>
                 </div>
                 <div class="item-timeline">
                     <span class="ano">1980</span>
-                    <p><strong>Desenvolvimento do ENQUIRE:</strong> Criou um programa experimental para estabelecer ligações entre informações no CERN.</p>
+                    <p><strong>Desenvolvimento do ENQUIRE:</strong> Criou um programa para estabelecer conexões entre documentos no CERN.</p>
                 </div>
                 <div class="item-timeline">
                     <span class="ano">1989</span>
-                    <p><strong>Proposta da World Wide Web:</strong> Apresentou o projeto para um sistema de gerenciamento de informações baseado em hipertexto.</p>
+                    <p><strong>Proposta da Web:</strong> Apresentou o projeto para um sistema universal de informações via hipertexto.</p>
                 </div>
                 <div class="item-timeline">
                     <span class="ano">1990</span>
-                    <p><strong>Primeiro navegador e servidor Web:</strong> Criou o navegador WorldWideWeb e estabeleceu as bases de HTML, HTTP e URL.</p>
-                </div>
-                <div class="item-timeline">
-                    <span class="ano">1991</span>
-                    <p><strong>Divulgação da Web:</strong> O software da Web foi disponibilizado para uso fora do CERN.</p>
+                    <p><strong>Primeiro Servidor e Navegador:</strong> Criou o navegador WorldWideWeb e definiu HTML, HTTP e URL.</p>
                 </div>
                 <div class="item-timeline">
                     <span class="ano">1993</span>
-                    <p><strong>Domínio Público:</strong> O CERN disponibilizou o software da Web em domínio público, sem cobrança de royalties.</p>
+                    <p><strong>Domínio Público:</strong> O CERN disponibilizou o código da Web gratuitamente, sem cobrança de royalties.</p>
                 </div>
                 <div class="item-timeline">
                     <span class="ano">1994</span>
-                    <p><strong>Fundação do W3C:</strong> Criou o World Wide Web Consortium para estabelecer padrões universais para a Web.</p>
+                    <p><strong>Fundação do W3C:</strong> Fundou o World Wide Web Consortium para estabelecer padrões abertos para a Web.</p>
                 </div>
             </div>
         </section>
 
-        <!-- CONTRIBUIÇÕES E PROJETOS -->
-        <section class="secao-contribuicoes" style="margin-top: 40px;">
-            <h2>Contribuições e Projetos</h2>
-            <article class="cartao-autor">
-                <div class="card-item" style="margin-bottom: 15px;">
-                    <h4>1. World Wide Web (WWW)</h4>
-                    <p>Permite acessar páginas e navegar por links. A Web não é a mesma coisa que a Internet: a Internet é a infraestrutura física de computadores, e a Web é o sistema de páginas que roda sobre ela.</p>
-                </div>
-                <div class="card-item" style="margin-bottom: 15px;">
-                    <h4>2. HTML</h4>
-                    <p>Linguagem de marcação para estruturar o conteúdo das páginas web.</p>
-                </div>
-                <div class="card-item" style="margin-bottom: 15px;">
-                    <h4>3. HTTP</h4>
-                    <p>Protocolo de comunicação que define as regras de troca de dados na Web.</p>
-                </div>
-                <div class="card-item" style="margin-bottom: 15px;">
-                    <h4>4. URL</h4>
-                    <p>Sistema de endereçamento único para localizar qualquer documento na rede.</p>
-                </div>
-                <div class="card-item" style="margin-bottom: 15px;">
-                    <h4>5. W3C (World Wide Web Consortium)</h4>
-                    <p>Organização que garante que os sites funcionem em qualquer navegador ou celular.</p>
-                </div>
-            </article>
-        </section>
+        <!-- CONTRIBUIÇÕES E PROJETOS (ESTILO DA REFERÊNCIA) -->
+        <section class="secao-contribuicoes-individual">
+            <h2>Contribuições e projetos</h2>
+            <p class="subtitulo-secao">Ideias que transformaram a tecnologia</p>
 
-        <!-- DESAFIOS -->
-        <section class="secao-desafios" style="margin-top: 30px;">
-            <h2>Desafios e Obstáculos</h2>
-            <div class="item-desafio">
-                <h4>1. Convencer outras pessoas a apoiar a ideia</h4>
-                <p>Sua primeira proposta no CERN foi classificada pelo seu chefe como apenas "vaga, mas empolgante".</p>
-            </div>
-            <div class="item-desafio" style="margin-top: 10px;">
-                <h4>2. Dificuldade de acesso inicial</h4>
-                <p>O primeiro navegador só funcionava em computadores NeXT, que eram caros e raros na época.</p>
-            </div>
-            <div class="item-desafio" style="margin-top: 10px;">
-                <h4>3. Liberar e espalhar a Web</h4>
-                <p>Garantir que a Web se tornasse livre e de domínio público em 1993, evitando que uma única empresa a monopolizasse.</p>
-            </div>
-        </section>
+            <div class="cartao-conteudo-referencia">
+                <h3>Tim Berners-Lee</h3>
 
-        <!-- LEGADO NO DIA A DIA -->
-        <section class="secao-legado" style="margin-top: 30px; margin-bottom: 50px;">
-            <h2>O Legado no Dia a Dia</h2>
-            <ul>
-                <li><strong>Navegadores:</strong> Chrome, Edge e Firefox usam as tecnologias criadas por Tim.</li>
-                <li><strong>Links:</strong> Clicar em qualquer link para trocar de página é a ideia original da Web de 1989.</li>
-                <li><strong>Padronização:</strong> Garantia de que um site abra bem tanto no computador quanto no celular.</li>
-            </ul>
+                <div class="item-cartao-projeto">
+                    <div class="box-icone icone-web">🌐</div>
+                    <div class="detalhes-projeto">
+                        <h4>World Wide Web</h4>
+                        <p>Tornou a internet acessível e fácil de usar, conectando pessoas e informações em todo o mundo.</p>
+                    </div>
+                </div>
+
+                <div class="item-cartao-projeto">
+                    <div class="box-icone icone-code">&lt;/&gt;</div>
+                    <div class="detalhes-projeto">
+                        <h4>HTML, HTTP e URL</h4>
+                        <p>Linguagens e protocolos que formam a base da web.</p>
+                    </div>
+                </div>
+
+                <div class="item-cartao-projeto">
+                    <div class="box-icone icone-w3c">W3C</div>
+                    <div class="detalhes-projeto">
+                        <h4>W3C</h4>
+                        <p>Organização que define padrões para a web.</p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 </body>

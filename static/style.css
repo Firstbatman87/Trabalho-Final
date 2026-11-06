@@ -1,8 +1,22 @@
+
+
 :root{
 
     /* cor do cabecario */
     --cor-fundo: #35359c;
     --cor-letra: #fff;
+
+    /* Fundo da secção de apresentação (azul muito escuro) */
+    --cor-hero: #03122e ;
+
+    /* Fundo geral da página, onde ficam os cartões (um azul/cinza bem clarinho) */
+    --cor-fundo-site: #f4f7fc;
+
+    /* Cor dos botões azuis e dos cartões de atalho */
+    --cor-azul-claro: #0284c7;
+
+    /* Cor para textos mais discretos (como subtítulos) */
+    --cor-letra-cinza: #94a3b8;
 }
 
 *{
@@ -12,6 +26,9 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    background-color: var(--cor-fundo-site);
+}
 
 .cabecalho {
     display: flex;
@@ -20,7 +37,7 @@
     padding: 15px 40px;
     background-color: var(--cor-fundo);
 
-    /* parte para manter o cabecario fixo na tela */
+    /* parte para manter o cabecalho fixo na tela */
 
     position: sticky;
     top: 0;
@@ -50,48 +67,85 @@
     display: block;
 }
 
-/* parte de apresentacao  */
-
-.titulo {
-
-    background-color: #0a5cd8;
-
+.hero-section{
+    background-color: var(--cor-hero);
     color: var(--cor-letra);
-
-}
-
-.titulo h1 {
-
-    font-size: 80px;
-
-    padding: 20px 10px;
-
-    margin-top: 100px;
-
-    margin-right: 360px;
-
-    color: var(--cor-letra);
-
-}
-
-.titulo img {
-    height: 500px;
-    align-items: left;
-}
-
-.principal {
+    padding: 60px 60px;
     display: flex;
-
+    justify-content: space-between;
+    align-items: center;
 }
 
-.segundario h2 {
-    margin-bottom: 15px;
+.hero-texto{
+    max-width: 550px;
 }
 
-.segundario p{
-    margin-bottom: 15px;
+.hero-texto h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
 }
 
-.segundario button  {
-    border: 2px solid chocolate;
+.hero-texto h2 {
+    font-size: 20px;
+    font-weight: normal;
+    color: var(--cor-letra-cinza);
+    margin-bottom: 30px;
+}
+
+.botoes-container{
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    padding: 12px 24px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.btn-primario{
+    background-color: var(--cor-azul-claro);
+    color: var(--cor-letra);
+}
+
+.btn-secundario{
+    background-color: transparent;
+    color: var(--cor-letra);
+    border: 1px solid var(--cor-letra-cinza);
+}
+
+.hero-section img {
+    max-width: 450px;
+    width: 100%;
+}
+
+.conteudo-principal{
+    max-width: 1100px;
+    margin: -30px auto 50px auto;
+    padding: 0px 20px;
+}
+
+.grid-protagonistas{
+    display: grid  ;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.card-perfil{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.card-perfil img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
 }
